@@ -1,4 +1,4 @@
-FROM python:3.9-rc
+FROM python
 WORKDIR /myapp
 COPY . .
 RUN pip install -r requirements.txt
